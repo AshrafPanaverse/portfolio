@@ -165,7 +165,7 @@ html {
 }
 
 body {
-  background: var(--smoky-black);
+  background: rgb(59 59 72);
 }
 
 /*-----------------------------------*\
@@ -174,7 +174,7 @@ body {
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: hsl(240deg 11% 36.18%);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -481,7 +481,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: rgb(57 57 69 / 26%);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
@@ -1964,20 +1964,21 @@ textarea.form-input::-webkit-resizer {
   }
 
   body::-webkit-scrollbar-track {
-    background: var(--smoky-black);
+    background: rgb(59 59 72);
   }
 
   body::-webkit-scrollbar-thumb {
     border: 5px solid var(--smoky-black);
-    background: hsla(0, 0%, 100%, 0.1);
+    background: rgb(59 59 72);
     border-radius: 20px;
     box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
       inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
   }
 
   body::-webkit-scrollbar-thumb:hover {
-    background: hsla(0, 0%, 100%, 0.15);
+    background: rgb(59 59 72);
   }
+
 
   body::-webkit-scrollbar-button {
     height: 60px;
@@ -2086,4 +2087,10 @@ textarea.form-input::-webkit-resizer {
   .timeline-text {
     max-width: 700px;
   }
+}
+
+
+/*custom css*/
+.intro b {
+  color: #feda70;
 }
