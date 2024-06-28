@@ -337,7 +337,7 @@ main {
 }
 
 .sidebar.active {
-  max-height: 405px;
+  max-height:fit-content;
 }
 
 .sidebar-info {
@@ -1489,7 +1489,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .avatar-box {
-    border-radius: 50%;
+    border-radius: 50% !important;
   }
 
   .avatar-box img {
@@ -2099,4 +2099,13 @@ textarea.form-input::-webkit-resizer {
 .designation{
   text-align: center;
   color:white;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.sidebar figure img{
+  border-radius: 50%;
+}
+.education{
+  line-height: 2;
 }
