@@ -2109,3 +2109,7 @@ textarea.form-input::-webkit-resizer {
 .education{
   line-height: 2;
 }
+
+figure.project-img {
+  height: 220px;
+}
