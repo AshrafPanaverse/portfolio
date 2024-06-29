@@ -2113,3 +2113,10 @@ textarea.form-input::-webkit-resizer {
 figure.project-img {
   height: 220px;
 }
+
+.pods a {
+  display: inline-block;
+}
+.pods h2{
+  color: white;
+}
