@@ -677,6 +677,7 @@ ul.skills-list {
 }
 
 .skills-item {
+  width: 100%;
   /* flex: 0 0 calc(50% - 20px); Two items per row with some spacing */
   box-sizing: border-box;
   padding: 2px;
