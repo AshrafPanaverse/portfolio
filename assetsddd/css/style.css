@@ -174,7 +174,7 @@ body {
 
 .sidebar,
 article {
-  background: hsl(240, 2%, 13%);
+  background: hsl(240deg 11% 36.18%);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -425,41 +425,6 @@ main {
   grid-template-columns: 1fr;
   gap: 16px;
 }
-
-
-/* Style for the resume button */
-.resume-btn {
-	display: flex;
-	align-items: center;
-	background: var(--border-gradient-onyx);
-	color: var(--orange-yellow-crayola);
-	border: none;
-	border-radius: 5px;
-	padding: 10px 20px;
-	font-size: 14px;
-	font-weight: bold;
-	cursor: pointer;
-	text-decoration: none;
-	transition: all 0.3s ease;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.resume-btn i {
-	margin-right: 8px; /* Space between icon and text */
-}
-
-.resume-btn:hover {
-	background: var(--border-gradient-onyx);
-	transform: translateY(-2px); /* Lift button slightly on hover */
-	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
-}
-
-.resume-btn:active {
-	background: var(--border-gradient-onyx);
-	transform: translateY(0); /* Reset lift effect on click */
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
 
 .contact-item {
   min-width: 100%;
@@ -1975,7 +1940,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   .project-list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   /**
@@ -2039,7 +2004,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   main {
-    max-width: 1000px;
+    max-width: 1200px;
     margin-inline: auto;
     display: flex;
     justify-content: center;
